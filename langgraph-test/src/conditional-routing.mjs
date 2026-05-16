@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { Annotation, END, START, StateGraph } from "@langchain/langgraph";
 
 const StateAnnotation = Annotation.Root({
